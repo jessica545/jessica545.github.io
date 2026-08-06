@@ -52,7 +52,7 @@ Open [http://localhost:5173](http://localhost:5173).
 | `npm run test` | Run unit/UI tests once |
 | `npm run test:watch` | Run tests in watch mode |
 | `npm run lint` | Run Oxlint |
-| `npm run deploy` | Build and publish `dist/` to `gh-pages` |
+| `npm run deploy` | Build production assets into the `docs/` folder for GitHub Pages |
 
 ## Folder structure
 
@@ -132,25 +132,30 @@ Never commit private API secrets.
 
 ### GitHub Pages (current)
 
-This repository is intended as a user site: `jessica545.github.io` → `https://jessica545.github.io`.
+This repository is a user site: `jessica545.github.io` → `https://jessica545.github.io`.
 
-Because this is a **user/organization site**, Vite `base` stays `/` in `vite.config.ts`.
+Because this is a **user site**, Vite `base` stays `/` in `vite.config.ts`.
 
-#### Option A — `gh-pages` branch (manual / script)
+#### Recommended — publish from `main` `/docs`
+
+1. Build into `docs/`:
 
 ```bash
 npm run deploy
 ```
 
-Then ensure GitHub Pages source is the `gh-pages` branch (`/` root).
+2. Commit and push the updated `docs/` folder to `main`
+3. In **Settings → Pages**, set source to **Deploy from a branch**
+   - Branch: `main`
+   - Folder: `/docs`
 
-#### Option B — GitHub Actions from `main`
-
-1. Grant the GitHub CLI / token the `workflow` scope (needed to push `.github/workflows/deploy.yml`)
-2. In repository **Settings → Pages**, set source to **GitHub Actions**
-3. Push to `main` — the workflow builds and deploys `dist/`
+#### Optional — GitHub Actions
 
 Workflow file: `.github/workflows/deploy.yml`
+
+1. In **Settings → Pages**, set source to **GitHub Actions**
+2. Approve the `github-pages` environment if prompted
+3. Push to `main` to build and deploy
 
 If using a **project site** instead (`username.github.io/repo-name`), change:
 
