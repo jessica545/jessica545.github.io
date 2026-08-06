@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="BuddyCart">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7efe6"/>
+      <stop offset="55%" stop-color="#e4c8d8"/>
+      <stop offset="100%" stop-color="#b7c4df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" rx="48" fill="url(#g)"/>
+  <rect x="72" y="88" width="1056" height="574" rx="36" fill="rgba(255,255,255,0.55)"/>
+  <circle cx="180" cy="210" r="36" fill="rgba(31,42,68,0.12)"/>
+  <rect x="240" y="190" width="320" height="18" rx="9" fill="rgba(31,42,68,0.28)"/>
+  <rect x="240" y="230" width="220" height="14" rx="7" fill="rgba(31,42,68,0.16)"/>
+  <rect x="120" y="300" width="960" height="280" rx="28" fill="rgba(255,255,255,0.72)"/>
+  <text x="140" y="360" font-family="Georgia, serif" font-size="42" fill="#1f2a44">BuddyCart</text>
+  <text x="140" y="410" font-family="Segoe UI, sans-serif" font-size="24" fill="#5b6478">Academic · Mobile</text>
+</svg>
