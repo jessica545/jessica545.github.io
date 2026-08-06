@@ -2,6 +2,7 @@ export type ProjectStatus = 'Completed' | 'In Progress' | 'Planned'
 
 export type ProjectCategory =
   | 'Full Stack'
+  | 'Frontend'
   | 'AI'
   | 'Machine Learning'
   | 'Data Analytics'

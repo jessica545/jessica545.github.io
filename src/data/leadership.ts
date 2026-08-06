@@ -7,8 +7,7 @@ export const leadership: LeadershipItem[] = [
     organization: 'University of British Columbia Okanagan',
     description:
       'Represented student perspectives and participated in academic-governance discussions affecting the university community.',
-    // PLACEHOLDER: Replace with accurate dates
-    dates: 'Dates placeholder — update in src/data/leadership.ts',
+    dates: 'April 2025 – April 2026',
   },
   {
     id: 'director-at-large',
@@ -16,7 +15,6 @@ export const leadership: LeadershipItem[] = [
     organization: 'Students’ Union Okanagan',
     description:
       'Supported student governance, organizational oversight, and initiatives serving the campus community.',
-    // PLACEHOLDER: Replace with accurate dates
-    dates: 'Dates placeholder — update in src/data/leadership.ts',
+    dates: 'May 2025 – May 2026',
   },
 ]

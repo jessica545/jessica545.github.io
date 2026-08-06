@@ -60,9 +60,9 @@ describe('Jessica Goel portfolio', () => {
     expect(localStorage.getItem(THEME_STORAGE_KEY)).toBe('light')
   })
 
-  it('renders exactly four project cards from data', () => {
+  it('renders exactly five project cards from data', () => {
     render(<App />)
-    expect(projects).toHaveLength(4)
+    expect(projects).toHaveLength(5)
     for (const project of projects) {
       expect(
         screen.getByRole('heading', { name: project.title }),

@@ -30,7 +30,7 @@ export const aboutHighlights: HighlightCard[] = [
 export const aboutStatistics: Statistic[] = [
   {
     id: 'projects',
-    value: '4',
+    value: '5',
     label: 'Featured software projects',
   },
   {

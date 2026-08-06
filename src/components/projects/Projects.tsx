@@ -36,7 +36,7 @@ export function Projects() {
             id="projects-heading"
             eyebrow="Projects"
             title="Featured work across full-stack, AI, and mobile"
-            description="Four carefully documented projects. Team and academic work includes clear collaboration disclosures."
+            description="Five carefully documented projects. Team and academic work includes clear collaboration disclosures."
           />
 
           <ProjectFilter

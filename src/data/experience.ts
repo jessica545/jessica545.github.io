@@ -6,8 +6,7 @@ export const experience: ExperienceRole[] = [
     company: 'Best Buy',
     role: 'Sales Advisor / Mobile Department Team Member',
     location: 'Kelowna, British Columbia',
-    // PLACEHOLDER: Replace with accurate employment dates
-    dates: 'Dates placeholder — update in src/data/experience.ts',
+    dates: 'July 2025 – Present',
     description: [
       'Assisted customers in comparing mobile devices, plans, accessories, and technology products',
       'Explained technical information in clear, customer-friendly language',

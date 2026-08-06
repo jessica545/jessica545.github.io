@@ -15,7 +15,7 @@ Production-ready personal portfolio for **Jessica Goel**, a Computer Science stu
 - Responsive single-page portfolio (mobile → desktop)
 - Light / dark themes with system preference + localStorage persistence
 - Structured TypeScript content files for easy updates
-- Four featured projects with accessible detail modal
+- Five featured projects with accessible detail modal
 - Keyboard-accessible project filters
 - Contact form with Formspree / EmailJS / mailto configuration
 - SEO metadata + Person/WebSite structured data

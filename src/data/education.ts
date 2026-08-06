@@ -23,6 +23,7 @@ export const education: EducationItem[] = [
       'Canvas AI Assistant (Capstone)',
       'Sleep Health Analytics',
       'BuddyCart',
+      'FlowBoard',
     ],
     awards: [],
     certifications: [],
