@@ -203,7 +203,7 @@ export const projects: Project[] = [
     imageAlt:
       'Placeholder cover for SpendSnap showing a soft abstract finance dashboard',
     gallery: ['/images/projects/spendsnap/cover.svg'],
-    githubUrl: undefined,
+    githubUrl: 'https://github.com/jessica545/SpendSnap',
     demoUrl: undefined,
     caseStudyUrl: undefined,
   },
@@ -283,7 +283,7 @@ export const projects: Project[] = [
     imageAlt:
       'Placeholder cover for Sleep Health Analytics showing soft abstract data charts',
     gallery: ['/images/projects/sleep-health-analytics/cover.svg'],
-    githubUrl: undefined,
+    githubUrl: 'https://github.com/jessica545/cosc301_group21',
     notebookUrl: undefined,
     reportUrl: undefined,
   },
@@ -356,7 +356,7 @@ export const projects: Project[] = [
     imageAlt:
       'Placeholder cover for BuddyCart showing a soft abstract mobile shopping interface',
     gallery: ['/images/projects/buddycart/cover.svg'],
-    githubUrl: undefined,
+    githubUrl: 'https://github.com/jessica545/COSC341_BuddyCart',
     apkUrl: undefined,
     demoVideoUrl: undefined,
   },
@@ -445,7 +445,7 @@ export const projects: Project[] = [
     imageAlt:
       'Placeholder cover for FlowBoard showing a soft abstract Kanban board layout',
     gallery: ['/images/projects/flowboard/cover.svg'],
-    githubUrl: undefined,
+    githubUrl: 'https://github.com/jessica545/flowboard-cosc310_forked',
     demoUrl: undefined,
     caseStudyUrl: undefined,
   },

@@ -20,6 +20,7 @@ export const skillGroups: SkillGroup[] = [
     title: 'Frontend',
     skills: [
       'React',
+      'Next.js',
       'Vite',
       'Tailwind CSS',
       'shadcn/ui',
