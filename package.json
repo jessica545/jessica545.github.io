@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && rm -rf docs && cp -R dist docs && printf '\\n' > docs/.nojekyll"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
