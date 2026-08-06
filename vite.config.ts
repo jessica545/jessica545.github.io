@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
+// User site (username.github.io) uses base '/'.
+// For project pages (username.github.io/repo), set base to '/repo/'.
 export default defineConfig({
-  plugins: [react()],
+  base: '/',
+  plugins: [react(), tailwindcss()],
 })

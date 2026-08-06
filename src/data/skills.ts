@@ -1,0 +1,85 @@
+import type { SkillGroup } from '../types/portfolio'
+
+export const skillGroups: SkillGroup[] = [
+  {
+    id: 'languages',
+    title: 'Languages',
+    skills: [
+      'Python',
+      'Java',
+      'TypeScript',
+      'JavaScript',
+      'SQL',
+      'HTML',
+      'CSS',
+      'Kotlin',
+    ],
+  },
+  {
+    id: 'frontend',
+    title: 'Frontend',
+    skills: [
+      'React',
+      'Vite',
+      'Tailwind CSS',
+      'shadcn/ui',
+      'Responsive Design',
+      'Accessible UI Development',
+      'Component-Based Architecture',
+    ],
+  },
+  {
+    id: 'backend',
+    title: 'Backend',
+    skills: [
+      'FastAPI',
+      'Django',
+      'REST APIs',
+      'Authentication',
+      'Role-Based Access Control',
+      'Pydantic',
+    ],
+  },
+  {
+    id: 'databases',
+    title: 'Databases',
+    skills: ['PostgreSQL', 'SQLite', 'MySQL'],
+  },
+  {
+    id: 'ai-data',
+    title: 'AI and Data',
+    skills: [
+      'Machine Learning',
+      'Scikit-learn',
+      'Pandas',
+      'NumPy',
+      'OCR',
+      'Large Language Model Integration',
+      'Data Cleaning',
+      'Feature Engineering',
+      'Predictive Analytics',
+      'Data Visualization',
+    ],
+  },
+  {
+    id: 'mobile',
+    title: 'Mobile',
+    skills: ['Kotlin', 'Android', 'Android Studio', 'Mobile UI Development'],
+  },
+  {
+    id: 'devops',
+    title: 'DevOps and Tools',
+    skills: [
+      'Git',
+      'GitHub',
+      'GitHub Actions',
+      'Docker',
+      'Docker Compose',
+      'Pytest',
+      'Vitest',
+      'Cursor',
+      'VS Code',
+      'Jupyter Notebook',
+    ],
+  },
+]

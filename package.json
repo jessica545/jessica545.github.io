@@ -8,6 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
