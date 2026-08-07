@@ -17,7 +17,7 @@ export const personalInfo: PersonalInfo = {
   ],
   availability: 'Open to software development opportunities',
   // PLACEHOLDER: Replace with your real contact details
-  email: 'jessica.goel@example.com',
+  email: 'jessicagoel939@gmail.com',
   githubUrl: 'https://github.com/jessica545',
   linkedinUrl: 'https://www.linkedin.com/in/your-linkedin-username',
   resumePath: '/Jessica-Goel-Resume.pdf',
