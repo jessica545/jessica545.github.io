@@ -19,7 +19,7 @@ export const personalInfo: PersonalInfo = {
   // PLACEHOLDER: Replace with your real contact details
   email: 'jessicagoel939@gmail.com',
   githubUrl: 'https://github.com/jessica545',
-  linkedinUrl: 'https://www.linkedin.com/in/jessica-goel-15ab10266/',
+  linkedinUrl: 'https://www.linkedin.com/in/jessica-goel-15ab10266',
   resumePath: '/Jessica-Goel-Resume.pdf',
   profileImage: '/images/profile/jessica-goel.jpg',
   profileImageAlt: 'Portrait of Jessica Goel',

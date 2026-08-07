@@ -46,8 +46,15 @@ export function Contact() {
                     rel="noopener noreferrer"
                     className={`inline-flex items-center gap-3 rounded-xl ${FOCUS_RING}`}
                   >
-                    <LinkedInIcon className="h-4 w-4 text-[var(--color-accent)]" />
-                    <span>LinkedIn</span>
+                    <LinkedInIcon className="h-4 w-4 shrink-0 text-[var(--color-accent)]" />
+                    <span className="text-left">
+                      <span className="block font-medium text-[var(--color-heading)]">
+                        LinkedIn
+                      </span>
+                      <span className="block text-xs text-[var(--color-text-muted)] break-all">
+                        linkedin.com/in/jessica-goel-15ab10266
+                      </span>
+                    </span>
                   </a>
                 </li>
                 <li>
