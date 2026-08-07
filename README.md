@@ -6,7 +6,7 @@ Production-ready personal portfolio for **Jessica Goel**, a Computer Science stu
 
 ## Screenshot
 
-![Portfolio screenshot placeholder](public/images/profile/jessica-goel.svg)
+![Portfolio screenshot placeholder](public/images/profile/jessica-goel.jpg)
 
 > Replace this placeholder with a real homepage screenshot when available.
 
@@ -92,7 +92,7 @@ Edit these files:
 
 ### Replacing images
 
-1. Profile: `public/images/profile/jessica-goel.svg` (or `.jpg` / `.webp`)
+1. Profile: `public/images/profile/jessica-goel.jpg` (or `.webp`)
 2. Projects:
    - `public/images/projects/canvas-ai-assistant/`
    - `public/images/projects/spendsnap/`

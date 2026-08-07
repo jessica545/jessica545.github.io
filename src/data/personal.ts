@@ -21,8 +21,8 @@ export const personalInfo: PersonalInfo = {
   githubUrl: 'https://github.com/jessica545',
   linkedinUrl: 'https://www.linkedin.com/in/your-linkedin-username',
   resumePath: '/Jessica-Goel-Resume.pdf',
-  profileImage: '/images/profile/jessica-goel.svg',
-  profileImageAlt: 'Portrait placeholder for Jessica Goel',
+  profileImage: '/images/profile/jessica-goel.jpg',
+  profileImageAlt: 'Portrait of Jessica Goel',
   siteUrl: 'https://jessica545.github.io',
   canonicalUrl: 'https://jessica545.github.io/',
 }

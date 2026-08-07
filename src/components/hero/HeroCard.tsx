@@ -22,7 +22,7 @@ export function HeroCard() {
             alt={personalInfo.profileImageAlt}
             width={88}
             height={88}
-            className="h-20 w-20 rounded-2xl border border-[var(--color-border)] object-cover shadow-[var(--shadow-card)]"
+            className="h-20 w-20 rounded-2xl border border-[var(--color-border)] object-cover object-top shadow-[var(--shadow-card)]"
             loading="eager"
           />
           <div>

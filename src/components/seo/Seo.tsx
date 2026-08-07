@@ -28,7 +28,7 @@ export function Seo() {
     upsertMeta(
       'property',
       'og:image',
-      `${personalInfo.siteUrl}/images/profile/jessica-goel.svg`,
+      `${personalInfo.siteUrl}${personalInfo.profileImage}`,
     )
     upsertMeta('name', 'twitter:card', 'summary_large_image')
     upsertMeta('name', 'twitter:title', SITE_TITLE)
