@@ -114,6 +114,7 @@ export interface PersonalInfo {
   email: string
   githubUrl: string
   linkedinUrl: string
+  linkedinHandle: string
   resumePath: string
   profileImage: string
   profileImageAlt: string

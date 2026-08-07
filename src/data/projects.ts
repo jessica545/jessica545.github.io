@@ -306,6 +306,7 @@ export const projects: Project[] = [
       'Placeholder cover for Sleep Health Analytics showing soft abstract data charts',
     gallery: ['/images/projects/sleep-health-analytics/cover.svg'],
     githubUrl: 'https://github.com/jessica545/cosc301_group21',
+    demoUrl: 'https://jessica545.github.io/cosc301_group21/',
     notebookUrl: undefined,
     reportUrl: undefined,
   },

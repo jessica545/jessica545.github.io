@@ -20,6 +20,8 @@ export const personalInfo: PersonalInfo = {
   email: 'jessicagoel939@gmail.com',
   githubUrl: 'https://github.com/jessica545',
   linkedinUrl: 'https://www.linkedin.com/in/jessica-goel-15ab10266',
+  // Display path used in visible text links across the site
+  linkedinHandle: 'linkedin.com/in/jessica-goel-15ab10266',
   resumePath: '/Jessica-Goel-Resume.pdf',
   profileImage: '/images/profile/jessica-goel.jpg',
   profileImageAlt: 'Portrait of Jessica Goel',
