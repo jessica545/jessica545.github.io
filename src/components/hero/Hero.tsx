@@ -47,8 +47,8 @@ export function Hero() {
               I’m a Computer Science student at UBC Okanagan focused on building
               accessible, reliable, and user-friendly software. My work includes
               an AI-powered Canvas assistant, a receipt-based personal-finance
-              platform, a sleep-health machine-learning pipeline, and an Android
-              shopping application.
+              platform, a sleep-health analytics pipeline, a collaborative
+              Kanban app, and an Android buddy-shopping prototype.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
